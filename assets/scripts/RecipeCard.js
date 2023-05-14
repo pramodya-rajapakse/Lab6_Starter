@@ -129,7 +129,7 @@ class RecipeCard extends HTMLElement {
     //           do not nest an <article> inside another <article>). You should use Template
     //           literals (tempalte strings) and element.innerHTML for this.
     if (data.rating == 0) {
-      var ratingImage = "/assets/images/icons/0-star.svg"
+      var ratingImage = "./assets/images/icons/0-star.svg"
       var ratingAlt = "0 stars"
     }
     else if (data.rating == 1) {
