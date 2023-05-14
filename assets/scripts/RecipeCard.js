@@ -129,15 +129,15 @@ class RecipeCard extends HTMLElement {
     //           do not nest an <article> inside another <article>). You should use Template
     //           literals (tempalte strings) and element.innerHTML for this.
     if (data.rating == 0) {
-      var ratingImage = "Lab6_Starter/assets/images/icons/0-star.svg"
+      var ratingImage = "./assets/images/icons/0-star.svg"
       var ratingAlt = "0 stars"
     }
     else if (data.rating == 1) {
-      var ratingImage = "/assets/images/icons/1-star.svg"
+      var ratingImage = "./assets/images/icons/1-star.svg"
       var ratingAlt = "1 stars"
     }
     else if (data.rating == 2) {
-      var ratingImage = "../assets/images/icons/2-star.svg"
+      var ratingImage = "./assets/images/icons/2-star.svg"
       var ratingAlt = "2 stars"
     }
     else if (data.rating == 3) {
@@ -145,7 +145,7 @@ class RecipeCard extends HTMLElement {
       var ratingAlt = "3 stars"
     }
     else if (data.rating == 4) {
-      var ratingImage = "../assets/images/icons/4-star.svg"
+      var ratingImage = "./assets/images/icons/4-star.svg"
       var ratingAlt = "4 stars"
     }
     else if (data.rating == 5) {
